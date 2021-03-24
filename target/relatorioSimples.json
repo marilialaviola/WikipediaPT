@@ -2,33 +2,33 @@
   {
     "comments": [
       {
-        "line": 2,
+        "line": 1,
         "value": "#Funcionalidade: Consulta"
       },
       {
-        "line": 3,
+        "line": 2,
         "value": "# Cenario: Consultar Ovo de Pascoa"
       },
       {
-        "line": 4,
-        "value": "#  Dado que acesso a Wikipedia em Portugues"
+        "line": 3,
+        "value": "# Dado que acesso a Wikipedia em Portugues"
       },
       {
-        "line": 5,
+        "line": 4,
         "value": "# Quando pesquiso por \"Ovo de Páscoa\""
       },
       {
-        "line": 6,
+        "line": 5,
         "value": "# Entao exibe a expressao \"Ovo de Páscoa\" no titulo da guia"
       }
     ],
-    "line": 8,
+    "line": 7,
     "elements": [
       {
         "before": [
           {
             "result": {
-              "duration": 11175337355,
+              "duration": 7045851156,
               "status": "passed"
             },
             "match": {
@@ -36,14 +36,14 @@
             }
           }
         ],
-        "line": 9,
+        "line": 8,
         "name": "Consultar Ovo de Pascoa",
         "description": "",
         "id": "consulta;consultar-ovo-de-pascoa",
         "after": [
           {
             "result": {
-              "duration": 8451122977,
+              "duration": 9470652874,
               "status": "passed"
             },
             "match": {
@@ -56,10 +56,10 @@
         "steps": [
           {
             "result": {
-              "duration": 15116520580,
+              "duration": 9598088899,
               "status": "passed"
             },
-            "line": 10,
+            "line": 9,
             "name": "que acesso a Wikipedia em Portugues",
             "match": {
               "location": "Post.queAcessoAWikipediaEmPortugues()"
@@ -68,10 +68,10 @@
           },
           {
             "result": {
-              "duration": 5587754636,
+              "duration": 5869847943,
               "status": "passed"
             },
-            "line": 11,
+            "line": 10,
             "name": "pesquiso por \"Ovo de Páscoa\"",
             "match": {
               "arguments": [
@@ -86,10 +86,10 @@
           },
           {
             "result": {
-              "duration": 1063916551,
+              "duration": 2687605043,
               "status": "passed"
             },
-            "line": 12,
+            "line": 11,
             "name": "exibe a expressao \"Ovo de Páscoa\" no titulo da guia",
             "match": {
               "arguments": [
